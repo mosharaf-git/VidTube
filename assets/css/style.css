@@ -202,3 +202,46 @@ nav{
     margin-bottom: 5px;
 }
 
+@media (max-width: 900px){
+    .menu-icon{
+        display: none;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .container,
+    .large-container {
+        padding: 0 5%;
+    }
+
+    .nav-right img{
+        display: none;
+    }
+
+    .nav-right .user-icon{
+        width: 30px;
+        display: block;
+    }
+
+    .nav-middle .search-box input{
+        width: 100px;
+    }
+
+    .nav-middle .mic-icon{
+        display: none;
+    }
+
+    .logo{
+        width: 90px;
+    }
+}
+
+
+
+
+
+
+
+
